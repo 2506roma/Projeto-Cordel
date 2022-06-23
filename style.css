@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(156, 154, 154);
+}
+
+header{
+    background-color: black;
+}
+
+header> h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    color: white;
+    text-align: center;
+}
+
+header > p{
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    line-height: 2em;
+}
+
+.normal{
+    background-color: white;
+}
+
+.imagem{
+    width: 400px;
+    background-color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+footer > a{
+    color: white;
+    text-decoration: none;
+}
