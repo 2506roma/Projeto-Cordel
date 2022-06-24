@@ -29,6 +29,9 @@ header > p{
 }
 
 section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     line-height: 2em;
 }
 
@@ -37,17 +40,36 @@ section{
 }
 
 .imagem{
-    width: 400px;
-    background-color: black;
+    width: auto;
+    background-color: rgba(43, 42, 42, 0.164);
+    color: white;
+}    
+
+#flor{
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+    position: relative;
+}
+#caderno{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    height: 50%;
+    background-attachment: fixed;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    color: yellow;
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
     padding-top: 10px;
-    
-}
-footer > a{
-    color: white;
-    text-decoration: none;
 }
